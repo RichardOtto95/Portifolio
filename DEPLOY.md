@@ -12,7 +12,7 @@
 
 ```bash
 # Fazer build do projeto
-flutter build web --release
+flutter build web --wasm
 
 # Commit das mudanças
 git add .
