@@ -425,6 +425,48 @@ A trajetória demonstra uma evolução consistente:
 
 ---
 
+## 🚀 Deploy e Hosting
+
+### 🌐 **Site Online**
+- **URL:** [richardotto.vercel.app](https://richardotto.vercel.app)
+- **Status:** ✅ Online
+- **Plataforma:** Vercel
+
+### 📦 **Como Fazer Deploy**
+
+#### **Opção 1: Vercel (Recomendado)**
+1. Acesse [vercel.com](https://vercel.com)
+2. Faça login com GitHub
+3. Clique em "New Project"
+4. Importe o repositório `portifolio_richard`
+5. Configure:
+   - **Framework Preset:** Other
+   - **Build Command:** `flutter build web --wasm`
+   - **Output Directory:** `build/web`
+   - **Install Command:** `flutter pub get`
+
+#### **Opção 2: GitHub Actions (Automático)**
+O projeto já está configurado com GitHub Actions para deploy automático no Vercel.
+
+#### **Opção 3: Deploy Local**
+```bash
+# Build do projeto
+flutter build web --wasm
+
+# Deploy via Vercel CLI
+npm install -g vercel
+vercel --prod
+```
+
+### 🔧 **Configurações de Deploy**
+- **Framework:** Flutter Web
+- **Build:** WebAssembly (WASM)
+- **Performance:** Otimizado para mobile
+- **SEO:** Configurado
+- **PWA:** Habilitado
+
+---
+
 **Richard Otto** - Mobile App Developer  
 *Foco, eficiência, organização e minuciosidade em cada projeto.*
 
