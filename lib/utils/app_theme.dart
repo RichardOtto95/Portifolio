@@ -11,11 +11,9 @@ class AppTheme {
         primary: AppColors.primaryBlue,
         secondary: AppColors.primaryPurple,
         surface: AppColors.lightBackground,
-        background: AppColors.lightBackground,
         onPrimary: AppColors.lightText,
         onSecondary: AppColors.lightText,
         onSurface: AppColors.darkText,
-        onBackground: AppColors.darkText,
       ),
       textTheme: GoogleFonts.interTextTheme().copyWith(
         displayLarge: GoogleFonts.inter(
@@ -151,11 +149,9 @@ class AppTheme {
         primary: AppColors.primaryBlue,
         secondary: AppColors.primaryPurple,
         surface: AppColors.darkBackground,
-        background: AppColors.darkBackground,
         onPrimary: AppColors.lightText,
         onSecondary: AppColors.lightText,
         onSurface: AppColors.lightText,
-        onBackground: AppColors.lightText,
       ),
       textTheme: GoogleFonts.interTextTheme().copyWith(
         displayLarge: GoogleFonts.inter(
