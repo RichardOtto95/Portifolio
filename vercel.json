@@ -1,7 +1,7 @@
 {
-  "buildCommand": "flutter build web --wasm",
+  "buildCommand": "chmod +x build.sh && ./build.sh",
   "outputDirectory": "build/web",
-  "installCommand": "flutter pub get",
+  "installCommand": "echo 'Instalação será feita no script de build'",
   "framework": null,
   "rewrites": [
     {
@@ -11,7 +11,7 @@
   ],
   "headers": [
     {
-      "source": "/**",
+      "source": "/build/web",
       "headers": [
         {
           "key": "Cache-Control",

@@ -110,23 +110,28 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 children: [
                   const SizedBox(height: 40),
-                  CircleAvatar(
-                    radius: 40,
-                    backgroundImage: const AssetImage(
-                      'assets/images/profile.jpg',
-                    ),
-                    backgroundColor: Theme.of(
-                      context,
-                    ).colorScheme.primary.withOpacity(0.1),
+                  // Logo e nome
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(
+                        'assets/images/logotipo.png',
+                        height: 50,
+                        width: 50,
+                        fit: BoxFit.contain,
+                      ),
+                      const SizedBox(width: 12),
+                      Text(
+                        AppText.name,
+                        style: Theme.of(context).textTheme.headlineSmall
+                            ?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: Theme.of(context).colorScheme.primary,
+                            ),
+                      ),
+                    ],
                   ),
                   const SizedBox(height: 16),
-                  Text(
-                    AppText.name,
-                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.primary,
-                    ),
-                  ),
                   Text(
                     AppText.title,
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(

@@ -33,13 +33,24 @@ class PortfolioNavigationBar extends StatelessWidget {
         children: [
           SizedBox(width: 30),
 
-          // Logo/Nome
-          Text(
-            AppText.name,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: Theme.of(context).colorScheme.primary,
-            ),
+          // Logo
+          Row(
+            children: [
+              Image.asset(
+                'assets/images/logotipo.png',
+                height: 40,
+                width: 40,
+                fit: BoxFit.contain,
+              ),
+              const SizedBox(width: 12),
+              Text(
+                AppText.name,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+              ),
+            ],
           ),
 
           const Spacer(),
