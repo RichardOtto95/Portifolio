@@ -39,7 +39,10 @@ class SkillData {
 
     // Ferramentas
     Skill(name: "Git & GitHub", category: "Ferramentas", level: 4),
-    Skill(name: "Firebase", category: "Ferramentas", level: 3),
+    Skill(name: "Firebase", category: "Ferramentas", level: 4),
+    Skill(name: "MySQL", category: "Ferramentas", level: 4),
+    Skill(name: "Oracle", category: "Ferramentas", level: 4),
+    Skill(name: "Postgree", category: "Ferramentas", level: 4),
     Skill(name: "AdMob", category: "Ferramentas", level: 3),
     Skill(name: "Stripe", category: "Ferramentas", level: 3),
     Skill(name: "REST APIs", category: "Ferramentas", level: 3),

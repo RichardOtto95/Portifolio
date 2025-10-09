@@ -26,7 +26,7 @@ Colaboro em todos os processos de desenvolvimento de apps e websites, incluindo:
 - **Back-End:** Delphi
 - **Design:** Adobe Illustrator e Photoshop
 - **Documentação:** Dicionário de dados, funcionalidades, requisitos, relatórios
-- **Modelagem de dados e integrações:** Firebase, AdMob, Stripe, REST API
+- **Modelagem de dados e integrações:** Firebase, MySQL, Oracle, Postgree, AdMob, Stripe, REST API
 - **Desenvolvimento de sistemas completos:** Aplicativos mobile e web responsivos
 - **Integração com APIs:** REST, Firebase, serviços de pagamento
 - **Gestão de projetos:** Planejamento, desenvolvimento e entrega de soluções
@@ -94,6 +94,9 @@ Colaborei em todos os processos de desenvolvimento de apps e websites, incluindo
 ### 🔧 Ferramentas & Integrações
 - **Git & GitHub** - 4/5 ⭐⭐⭐⭐
 - **Firebase** - 3/5 ⭐⭐⭐
+- **Postgree** - 3/5 ⭐⭐⭐
+- **MySQL** - 3/5 ⭐⭐⭐
+- **Oracle** - 3/5 ⭐⭐⭐
 - **AdMob** - 3/5 ⭐⭐⭐
 - **Stripe** - 3/5 ⭐⭐⭐
 - **REST APIs** - 3/5 ⭐⭐⭐

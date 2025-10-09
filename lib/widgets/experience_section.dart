@@ -89,7 +89,7 @@ class ExperienceSection extends StatelessWidget {
               '• Back-End (Delphi)\n'
               '• Design (Adobe Illustrator e Photoshop)\n'
               '• Documentação (dicionário de dados, funcionalidades, requisitos, relatórios)\n'
-              '• Modelagem de dados e integrações (Firebase, AdMob, Stripe, REST API)',
+              '• Modelagem de dados e integrações (Firebase, MySQL, Oracle, AdMob, Stripe, REST API)',
           isCurrent: true,
         ),
 
