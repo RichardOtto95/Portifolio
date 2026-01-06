@@ -77,11 +77,28 @@ class ExperienceSection extends StatelessWidget {
 
         const SizedBox(height: 32),
 
-        // Experiência atual
+        // Experiência atual na Noxtec
+        _ExperienceCard(
+          title: 'Consultor de Sistemas - Dados',
+          company: 'Noxtec',
+          period: '11/2025 - Presente',
+          description:
+              'A Noxtec oferece serviços digitais de saúde e somos terceirizados do IGESDF\n'
+              'Meu principal serviço é automação assistencial hospitalar, criando soluções digitais em artefatos como:\n'
+              '• Relatórios personalizados\n'
+              '• Painéis de indicadores (Dashboards)\n'
+              '• Documentos Hospitalares\n'
+              'Utilizando como principal ferramenta o Oracle SQL',
+          isCurrent: true,
+        ),
+
+        const SizedBox(height: 24),
+
+        // Experiência na SAT
         _ExperienceCard(
           title: 'Desenvolvedor Mobile',
           company: 'SAT Sistemas, Taguatinga',
-          period: '08/2022 - Presente',
+          period: '08/2022 - 11/2025',
           description:
               'Colaboro em todos os processos de desenvolvimento de apps e websites, incluindo:\n'
               '• Prototipagem (Adobe XD)\n'
@@ -90,12 +107,12 @@ class ExperienceSection extends StatelessWidget {
               '• Design (Adobe Illustrator e Photoshop)\n'
               '• Documentação (dicionário de dados, funcionalidades, requisitos, relatórios)\n'
               '• Modelagem de dados e integrações (Firebase, MySQL, Oracle, AdMob, Stripe, REST API)',
-          isCurrent: true,
+          isCurrent: false,
         ),
 
         const SizedBox(height: 24),
 
-        // Experiência anterior
+        // Experiência na SCOREFY
         _ExperienceCard(
           title: 'Desenvolvedor Mobile',
           company: 'Scorefy, Taguatinga',
