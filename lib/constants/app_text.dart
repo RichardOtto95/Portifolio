@@ -16,7 +16,7 @@ Foco, eficiência, organização e minuciosidade são algumas características q
 Com 5 anos me especializando em todos os processos de criação de apps e websites.
 
 Atualmente cursando Computação - Licenciatura na Universidade de Brasília (UnB), 
-com forte especialização em Flutter/Dart e experiência em sistemas complexos de delivery e e-commerce.
+com forte especialização em Flutter/Dart, experiência em sistemas complexos de delivery, e-commerce, agendamentos, etc. Analista e consultor de dados.
 """;
 
   static const String aboutHobbies = """
