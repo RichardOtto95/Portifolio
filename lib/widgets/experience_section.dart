@@ -100,7 +100,7 @@ class ExperienceSection extends StatelessWidget {
           company: 'SAT Sistemas, Taguatinga',
           period: '08/2022 - 11/2025',
           description:
-              'Colaboro em todos os processos de desenvolvimento de apps e websites, incluindo:\n'
+              'Colaborei em todos os processos de desenvolvimento de apps e websites, incluindo:\n'
               '• Prototipagem (Adobe XD)\n'
               '• Front-End (Flutter, HTML & CSS)\n'
               '• Back-End (Delphi)\n'
